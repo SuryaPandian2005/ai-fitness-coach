@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 load_dotenv()
-client = Groq(api_key=os.getenv("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"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # -------------------- STYLES --------------------
 st.markdown("""
@@ -162,3 +162,4 @@ st.markdown("</div>", unsafe_allow_html=True)
 
 # -------------------- FOOTER --------------------
 st.caption("🚀 Built with Streamlit + Groq AI | Final-Year / Resume-Ready Project")
+
