@@ -1,8 +1,5 @@
 streamlit
-openai
+groq
 python-dotenv
 pandas
-numpy
-requests
-google-generativeai
-groq
+plotly
